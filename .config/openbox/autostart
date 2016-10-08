@@ -1,6 +1,8 @@
+#!/bin/sh
 cd /usr/local/symphony/mezzo;
 ./conductor &
+cd ~;
 nitrogen --restore &
+tint2 &
 nm-applet &
-volume-icon &
-tint2;
+volumeicon &
